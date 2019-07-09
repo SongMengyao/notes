@@ -121,23 +121,39 @@
       结果如下图：
       ![IMG_256](../imgs/2.jpg)
 
-    - (4). 双重循环去重：
+    - (4). 双重循环去重(循环层越多，性能越差)：
       ```
-        var a = ['a', 'b', 'c', 'd', 'a', 'b', 'c', 'd', 'e', 'f']
-        var b = []
-        a.forEach((aItem, aIndex) => {
-          let c = b.every((bItem, bIndex) => {
-            return aItem !== bItem
-          })
-          console.log('c------->', c)
-          if(c) {
-            b.push(aItem)
-          }
+        var a = Array.from(new Array(100000), (item, index) => {
+          return index
         })
-        console.log('a------->', a)
-        console.log('b------->', b)
+        var b = Array.from(new Array(500000), (item, index) => {
+          return index
+        })
+
+        // 开始时间
+        var startTime = new Date().getTime()
+
+        // 数组去重code
+        a.forEach((aItem, aIndex) => {
+          var c = b.every((bItem, bIndex) => {
+              return aItem !== bItem
+            })
+            if(c) {
+                b.push(aItem)
+            }
+        })
+
+        // 结束时间
+        var endTime = new Date().getTime()
+
+        // 结果
+        console.log('startTime: ', startTime)
+        console.log('b: ', b, b.length)
+        console.log('endTime: ', endTime)
+        console.log('历时: ' + (endTime - startTime) + 'ms')
       ```
-      <!-- ![IMG_256](../imgs/3.jpg) -->
+      结果如下图：
+      ![IMG_256](../imgs/4.jpg)
 
 ---
 
