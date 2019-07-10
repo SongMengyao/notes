@@ -121,7 +121,7 @@
       结果如下图：
       ![IMG_256](../imgs/2.jpg)
 
-    - (4). 双重循环去重(循环层越多，性能越差)：
+    - (4). 双重循环去重(循环层越多，性能越差; 如果把a和b的长度换一下，历时会更长，大概200000ms)：
       ```
         var a = Array.from(new Array(100000), (item, index) => {
           return index
@@ -154,6 +154,67 @@
       ```
       结果如下图：
       ![IMG_256](../imgs/4.jpg)
+
+    - (5). filter + indexOf去重 (和for...of... + includes性能差不多，因为原理类似)：
+      ```
+        var a = Array.from(new Array(100000), (item, index) => {
+          return index
+        })
+        var b = Array.from(new Array(500000), (item, index) => {
+            return index
+        })
+
+        // 开始时间
+        var startTime = new Date().getTime()
+
+        // 数组去重code
+        a = a.concat(b)
+        var newArr = a.filter((item, index)=> {
+          return a.indexOf(item) === index
+        })
+
+        // 结束时间
+        var endTime = new Date().getTime()
+
+        // 结果
+        console.log('startTime: ', startTime)
+        console.log('newArr: ', newArr, newArr.length)
+        console.log('endTime: ', endTime)
+        console.log('历时: ' + (endTime - startTime) + 'ms')
+      ```
+      结果如下图：
+      ![IMG_256](../imgs/5.jpg)
+
+    - (6). for...of... + includes去重 (和filter + indexOf性能差不多，因为原理类似)：
+      ```
+        var a = Array.from(new Array(100000), (item, index) => {
+          return index
+        })
+        var b = Array.from(new Array(500000), (item, index) => {
+            return index
+        })
+
+        // 开始时间
+        var startTime = new Date().getTime()
+
+        // 数组去重code
+        a = a.concat(b)
+        var newArr = []
+        for (let i of a) {
+          !newArr.includes(i) && newArr.push(i)
+        }
+
+        // 结束时间
+        var endTime = new Date().getTime()
+
+        // 结果
+        console.log('startTime: ', startTime)
+        console.log('newArr: ', newArr, newArr.length)
+        console.log('endTime: ', endTime)
+        console.log('历时: ' + (endTime - startTime) + 'ms')
+      ```
+      结果如下图：
+      ![IMG_256](../imgs/6.jpg)
 
 ---
 
@@ -192,3 +253,5 @@
 18. js正则表达式
 
 19. js性能
+
+20. 单向数据流
