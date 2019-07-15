@@ -466,6 +466,54 @@
     结果如图：
     ![IMG_256](../imgs/16.jpg)
 
+    - (10). reduceRight：接收一个函数作为累加器，把数组的值从右到左依次进行计算，最后合并成一个值。`和reduce功能一样，只不过reduceRight是从右至左计算。`
+    ```
+    var arr = Array.from(new Array(5), (item, index) => {
+      return index
+    })
+
+    var newArr = arr.reduceRight((total, num) => {
+      return total + num
+    })
+
+    console.log('arr: ', arr)
+    console.log('newArr: ', newArr)
+    ```
+    结果如图：
+    ![IMG_256](../imgs/17.jpg)
+
+    - (11). find：遍历数组，返回数组中第一个符合条件的值，剩下的值就不再遍历。如果数组的所有值都不符合要求，则返回undefined。find不改变原数组。
+    ```
+    var arr = Array.from(new Array(5), (item, index) => {
+      return index
+    })
+
+    var newArr = arr.find((item, index) => {
+      return item > 2
+    })
+
+    console.log('arr: ', arr)
+    console.log('newArr: ', newArr)
+    ```
+    结果如图：
+    ![IMG_256](../imgs/18.jpg)
+
+    - (12). findIndex：遍历数组，返回数组中第一个符合条件的值所在的位置(索引)，剩下的值不再遍历。如果数组中没有符合条件的值，就返回-1。findIndex不改变原数组。
+    ```
+    var arr = Array.from(new Array(5), (item, index) => {
+      return index
+    })
+
+    var newArr = arr.findIndex((item, index) => {
+      return item > 2
+    })
+
+    console.log('arr: ', arr)
+    console.log('newArr: ', newArr)
+    ```
+    结果如图：
+    ![IMG_256](../imgs/19.jpg)
+
 ---
 
 5. 操作数组的方法，eg: split
