@@ -74,4 +74,44 @@
   NaN == null  // false
 ```
 
+复杂数据类型转换：复杂数据类型在隐式转换时会先转成String，然后再转成Number运算。
+```
+Object: 
+  var obj1 = {
+    a: 1,
+    valueOf: function() {
+      return obj1.a++
+    }
+  }
+
+  if (obj1 == 1 && obj1 == 2 && obj1 == 3) {
+        console.log(1)
+  }
+  // 打印出 1
+
+  ------------------------------------------------
+
+  var obj1 = {
+    a: 1,
+    toString: function() {
+      return obj1.a++
+    }
+  }
+
+  if (obj1 == 1 && obj1 == 2 && obj1 == 3) {
+        console.log(1)
+  }
+  // 打印出 1
+```
+
+常见面试题：
+```
+  [] == 0  // true
+  ![] == 0  // true
+  [] == ![]  // true
+  [] == []  // false
+  {} == !{}  // false
+  {} == {}  // false
+```
+
 [返回目录](../原生JS.md)
