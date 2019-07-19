@@ -8,7 +8,11 @@
 
 `欢迎各位大佬在这个仓库补充知识点 😀`
 
-### 开发笔记
+### 总目录
+- [JavaScript](./JavaScript/原生JS.md)
+- [Git](./Git/git常用操作.md)
+
+### 笔记详情
 
 - js笔记在JavaScript文件夹下
   - 原生js
