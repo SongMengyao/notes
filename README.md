@@ -11,22 +11,24 @@
 ### 总目录
 - [JavaScript](./JavaScript/原生JS.md)
 - [Git](./Git/git常用操作.md)
+- [设计模式](./设计模式/设计模式.md)
 
 ### 笔记详情
 
-- js笔记在JavaScript文件夹下
+- js 笔记在JavaScript文件夹下
   - 原生js
   - vue
   - react
-- node笔记在NodeJs文件夹下
+- node 笔记在NodeJs文件夹下
   - 原生NodeJs
   - express
   - koa2
-- Git笔记在Git文件夹下
+- Git 笔记在Git文件夹下
   - git flow
   - git tag
   - 变基
-- 图片在imgs文件夹下
+- 设计模式 笔记在设计模式文件夹下
+- 图片 在imgs文件夹下
 
 ### 分支
 
