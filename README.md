@@ -11,6 +11,7 @@
 ### 总目录
 - [JavaScript](./JavaScript/原生JS.md)
 - [Git](./Git/git常用操作.md)
+- [CSS](./CSS/css知识点.md)
 - [设计模式](./设计模式/设计模式.md)
 
 ### 笔记详情
@@ -27,6 +28,7 @@
   - git flow
   - git tag
   - 变基
+- CSS 笔记在CSS文件夹下
 - 设计模式 笔记在设计模式文件夹下
 - 图片 在imgs文件夹下
 
