@@ -7,6 +7,9 @@
 4. 父子组件、兄弟组件传参
 
 5. computed和watch
+https://www.cnblogs.com/gunelark/p/8492468.html
+
+9. provide和inject
 
 6. vue-router：
     - 路由守卫
