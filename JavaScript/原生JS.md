@@ -16,13 +16,13 @@
 
 7. [call、apply、bind](./原生JS/call&apply&bind.md)
 
+8. 偏函数
+
+9. arguments
+
 10. [高阶函数](./原生JS/高阶函数.md)
 
 11. [函数柯里化](./原生JS/函数柯里化.md)
-
-11. 偏函数
-
-11. arguments
 
 12. 递归
 
