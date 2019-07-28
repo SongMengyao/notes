@@ -14,11 +14,7 @@
 
 6. 深拷贝 & 浅拷贝
 
-7. bind
-
-8. call
-
-9. apply
+7. [call、apply、bind](./原生JS/call&apply&bind.md)
 
 10. [高阶函数](./原生JS/高阶函数.md)
 
