@@ -18,7 +18,7 @@
 
 8. [偏函数](./原生JS/偏函数.md)
 
-9. arguments
+9. [arguments](./原生JS/arguments.md)
 
 10. [高阶函数](./原生JS/高阶函数.md)
 
