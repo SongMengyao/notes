@@ -1,5 +1,7 @@
 [返回总目录](../README.md)
 
+0. [this](./原生JS/this.md)
+
 1. [闭包](./原生JS/闭包.md)
 
 2. [构造函数](./原生JS/构造函数.md)
@@ -12,11 +14,7 @@
 
 6. 深拷贝 & 浅拷贝
 
-7. bind
-
-8. call
-
-9. apply
+7. [call、apply、bind](./原生JS/call&apply&bind.md)
 
 10. [高阶函数](./原生JS/高阶函数.md)
 
