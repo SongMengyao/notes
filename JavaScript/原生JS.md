@@ -16,7 +16,7 @@
 
 7. [call、apply、bind](./原生JS/call&apply&bind.md)
 
-8. 偏函数
+8. [偏函数](./原生JS/偏函数.md)
 
 9. arguments
 
