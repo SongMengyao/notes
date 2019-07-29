@@ -14,6 +14,7 @@
 
   function add() {
     // 第一次执行时，定义一个数组专门用来存储所有的参数
+    // 将 arguments 转换成 数组
     var _args = Array.prototype.slice.call(arguments);
 
     // 在内部声明一个函数，利用闭包的特性保存_args并收集所有的参数值
@@ -50,5 +51,5 @@
   // arguments[0]:  name
   // arguments[1]:  age
   ```
-  
+
 [返回目录](../原生JS.md)
