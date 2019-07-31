@@ -31,3 +31,6 @@ https://www.cnblogs.com/gunelark/p/8492468.html
     - css相关配置
     - 构建
     - 部署
+
+9. get请求传的参数中数组，类似[1, 2, 3]，做如下处理：
+![IMG_256](../imgs/vue1.jpg)
