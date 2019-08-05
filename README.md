@@ -17,6 +17,10 @@
 
 ### 笔记详情
 
+- 项目管理 笔记在项目管理文件夹下
+  - 设计模式
+  - 产品
+  - 项目从无到有的流程
 - js 笔记在JavaScript文件夹下
   - 原生js
   - vue
@@ -25,12 +29,14 @@
   - 原生NodeJs
   - express
   - koa2
+  - debugger
+  - nvm、npm、cnpm、yarn
 - Git 笔记在Git文件夹下
   - git flow
   - git tag
   - 变基
 - CSS 笔记在CSS文件夹下
-- 设计模式 笔记在设计模式文件夹下
+- 设计 笔记在设计文件夹下
 - Docker 笔记在Docker文件夹下
 - DevOps 笔记在DevOps文件夹下
 - 常用工具 笔记在常用工具集合文件夹下
