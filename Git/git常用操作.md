@@ -8,4 +8,6 @@
 
 4. [git常用命令](./git常用操作/git常用命令.md)
 
+5. [git cherry-pick](./git常用操作/git-cherry-pick.md)
+
 [返回总目录](../README.md)
