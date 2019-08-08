@@ -10,4 +10,6 @@
 
 5. [git cherry-pick](./git常用操作/git-cherry-pick.md)
 
+6. [贮藏](./git常用操作/贮藏.md)
+
 [返回总目录](../README.md)
