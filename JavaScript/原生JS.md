@@ -72,4 +72,6 @@
 
 32. [require & import](./原生JS/require&import.md)
 
+33. [promise](./原生JS/promise.md)
+
 [返回总目录](../README.md)
