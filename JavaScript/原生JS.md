@@ -74,4 +74,8 @@
 
 33. [promise](./原生JS/promise.md)
 
+34. [http 缓存机制](./原生JS/http缓存机制.md)
+
+35. [回流 & 重绘](./原生JS/回流&重绘.md)
+
 [返回总目录](../README.md)
