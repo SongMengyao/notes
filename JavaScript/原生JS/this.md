@@ -94,5 +94,21 @@
     var a = new Fn
     console.log('a.user: ', a.user)  // undefined
   ```
+  例5：高阶函数的this，指向 Window
+  ```
+  箭头函数：
+    var arr = ['a', 'b', 'c', 'd']
+    arr.map(item => {
+      console.log('this: ', this) // Window
+    })
+
+
+  普通函数：
+    var arr = ['a', 'b', 'c', 'd']
+    arr.map(function(item) {
+      console.log('this: ', this) // Window
+    })
+
+  ```
 
 [返回目录](../原生JS.md)
