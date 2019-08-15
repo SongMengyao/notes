@@ -84,4 +84,8 @@
 
 38. [commonJs、amd、cmd](./原生JS/commonJs、amd、cmd.md)
 
+39. [postmessage、sendmessage](./原生JS/postmessage、sendmessage.md)
+
+40. [跨域](./原生JS/跨域.md)
+
 [返回总目录](../README.md)
