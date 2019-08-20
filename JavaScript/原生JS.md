@@ -88,4 +88,6 @@
 
 40. [跨域](./原生JS/跨域.md)
 
+41. [wondow.onload & document.ready](./原生JS/wondow.onload和document.ready.md)
+
 [返回总目录](../README.md)
