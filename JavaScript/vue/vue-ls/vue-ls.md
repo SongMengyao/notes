@@ -51,7 +51,7 @@
     import Vue from 'vue'
 
     Vue.ls.get(key, values)
-    Vue.ls.set(key, values)
+    Vue.ls.set(key, values, expire)
     Vue.ls.remove(key, values)
     Vue.ls.clear(key, values)
   ```
