@@ -50,10 +50,10 @@
   ```
     import Vue from 'vue'
 
-    Vue.ls.get(key, values)
+    Vue.ls.get(key, defaultValues)
     Vue.ls.set(key, values, expire)
-    Vue.ls.remove(key, values)
-    Vue.ls.clear(key, values)
+    Vue.ls.remove(key)
+    Vue.ls.clear()
   ```
   - like vue-ls
   ```

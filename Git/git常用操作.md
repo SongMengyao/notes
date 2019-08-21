@@ -12,6 +12,4 @@
 
 6. [贮藏](./git常用操作/贮藏.md)
 
-7. git commit --amend
-
 [返回总目录](../README.md)
