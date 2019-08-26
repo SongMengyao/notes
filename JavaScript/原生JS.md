@@ -90,4 +90,6 @@
 
 41. [wondow.onload & document.ready](./原生JS/wondow.onload和document.ready.md)
 
+42. 事件委托
+
 [返回总目录](../README.md)
