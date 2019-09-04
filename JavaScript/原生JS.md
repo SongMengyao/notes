@@ -64,7 +64,7 @@
 
 28. es6中的 `Class`
 
-29. [前端code性能优化](./原生JS/前端code性能优化.md)
+29. [前端性能优化](./原生JS/前端性能优化.md)
 
 30. [单向数据流 & 双向数据流](./原生JS/单向数据流&双向数据流.md)
 
@@ -91,5 +91,9 @@
 41. [wondow.onload & document.ready](./原生JS/wondow.onload和document.ready.md)
 
 42. 事件委托
+
+43. 事件循环
+
+44. 任务队列
 
 [返回总目录](../README.md)
