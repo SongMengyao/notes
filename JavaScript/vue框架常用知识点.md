@@ -36,3 +36,9 @@ https://www.cnblogs.com/gunelark/p/8492468.html
 ![IMG_256](../imgs/vue1.jpg)
 
 10. [vue-ls](./vue/vue-ls/vue-ls.md)
+
+11. vue 的工作原理，比如：v-model, v-if, v-for
+
+12. vue 和 react 的区别
+
+13. 单元测试
