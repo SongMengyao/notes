@@ -80,8 +80,6 @@
 
 35. [回流 & 重绘](./原生JS/回流&重绘.md)
 
-36. [微任务 & 宏任务](./原生JS/微任务&宏任务.md)
-
 37. [ajax、axios、fetch](./原生JS/ajax、axios、fetch.md)
 
 38. [commonJs、amd、cmd](./原生JS/commonJs、amd、cmd.md)
@@ -91,12 +89,6 @@
 40. [跨域](./原生JS/跨域.md)
 
 41. [wondow.onload & document.ready](./原生JS/wondow.onload和document.ready.md)
-
-42. 事件委托
-
-43. 事件循环
-
-44. 任务队列
 
 45. 块级上下文 和 行级上下文
 
@@ -117,5 +109,13 @@
 53. 优化代码打包速度 和 优化代码编译速度
 
 54. js 执行机制
+
+42. 事件委托
+
+43. 事件循环
+
+44. [任务队列](./原生JS/任务队列.md)
+
+36. [微任务 & 宏任务](./原生JS/微任务&宏任务.md)
 
 [返回总目录](../README.md)
