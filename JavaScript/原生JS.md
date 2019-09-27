@@ -100,7 +100,7 @@
 
 45. 块级上下文 和 行级上下文
 
-46. setTimeout 和 promise 异步
+46. [setTimeout 和 promise 异步](./原生JS/setTimeout和promise.md)
 
 47. promise 工作原理
 
@@ -115,5 +115,7 @@
 52. nginx 的详细配置
 
 53. 优化代码打包速度 和 优化代码编译速度
+
+54. js 执行机制
 
 [返回总目录](../README.md)
