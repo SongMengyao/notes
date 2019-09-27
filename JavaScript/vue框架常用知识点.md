@@ -42,3 +42,10 @@ https://www.cnblogs.com/gunelark/p/8492468.html
 12. vue 和 react 的区别
 
 13. 单元测试
+
+14. setTimeout  promise 区别
+15. nginx 配置
+16. vue 的 虚拟dom 实现原理
+17. diff算法
+18. 为什么会有options，原理是什么
+19. 谷歌浏览器怎么查看项目的性能？
