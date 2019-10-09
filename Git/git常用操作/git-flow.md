@@ -21,8 +21,8 @@ git流有三种：feature(功能)、release(发布)、hotfix(修bug)。`feature�
       (3). 建立 feature 流 (功能流，同时可以建立多个)
       ![IMG_256](../../imgs/41.jpg)
       ![IMG_256](../../imgs/42.jpg)
-      (4). 建立 hotfix 流 (修改bug流，一次只能建立一个)
-      ![IMG_256](../../imgs/44.jpg)
+      (4). 建立 hotfix 流 (修改bug流，一次只能建立一个，是建立在 master 分支上的)
+      ![IMG_256](../../imgs/44(1).jpg)
       (5). 建立 release 流 (发布版本流，一次只能建立一个)
       ![IMG_256](../../imgs/45.jpg)
       (6). 完成某个流上面的任务后，要合并code到开发分支。比如合并feature流：
