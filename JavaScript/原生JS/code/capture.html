@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>capture</title>
+</head>
+<body>
+  <div id="a">
+    aaaa
+    <div id="b">
+      bbbb
+      <div id="c">
+        cccc
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var a = document.getElementById('a')
+    var b = document.getElementById('b')
+    var c = document.getElementById('c')
+
+    /*
+      事件捕获：
+      obj.addEventListener(event, function(){}, bool)
+        bool:false，代表冒泡阶段执行，默认值
+        bool:true，代表捕获阶段执行
+
+      在JS中，绑定的事件默认的执行时间是在冒泡阶段执行，而非在捕获阶段。即：假如 addEventListener() 方法没有指定第三个参数，就默认是false，按照冒泡的规则执行函数
+    */
+
+    /*
+      捕获阶段执行，控制台结果是：
+        aaaa
+        bbbb
+        cccc
+    */
+    a.addEventListener('click', function() {
+      console.log('aaaa')
+    }, true)
+    b.addEventListener('click', function() {
+      console.log('bbbb')
+    }, true)
+    c.addEventListener('click', function() {
+      console.log('cccc')
+    }, true)
+
+    /*
+      b, c 捕获阶段执行，a 冒泡阶段执行，控制台结果是：
+        bbbb
+        cccc
+        aaaa
+    */
+    // a.addEventListener('click', function() {
+    //   console.log('aaaa')
+    // }, false)
+    // b.addEventListener('click', function() {
+    //   console.log('bbbb')
+    // }, true)
+    // c.addEventListener('click', function() {
+    //   console.log('cccc')
+    // }, true)
+
+
+    // 如果 js 执行的过程中，同时存在捕获和冒泡，则执行顺序是：捕获 > 冒泡
+  </script>
+</body>
+</html>
