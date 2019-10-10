@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>bubble</title>
+</head>
+<body>
+  <div id="a">
+    aaaa
+    <div id="b">
+      bbbb
+      <div id="c">
+        cccc
+        <div id="d">
+          dddd
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /*
+      事件冒泡：
+        点击 d 元素，控制台会一次打印出：
+          dddd
+          cccc
+          bbbb
+          aaaa
+        也就是 d 元素点击事件绑定的方法，被触发并且执行完成之后，会依次触发并执行其父元素(c, b, a)的点击事件绑定的方法
+    */
+    var a = document.getElementById('a')
+    var b = document.getElementById('b')
+    var c = document.getElementById('c')
+    var d = document.getElementById('d')
+  
+    a.onclick = function() {
+      console.log('aaaa')
+    }
+    b.onclick = function() {
+      console.log('bbbb')
+    }
+    c.onclick = function() {
+      console.log('cccc')
+    }
+    d.onclick = function() {
+      /*
+        阻止事件冒泡：
+        event 对象的属性 cancelBubble 默认值是 false，当设置为 true 时，就阻止了当前事件的冒泡行为。
+        此时点击 d 元素，控制台就只能打印出 'dddd'
+      */
+      // event.cancelBubble = true // 取消当前事件的冒泡
+  
+      console.log('dddd')
+    }
+  </script>
+</body>
+</html>
