@@ -126,4 +126,6 @@
 
 61. [事件冒泡 和 事件捕获](./原生JS/事件冒泡和事件捕获.md)
 
+62. [session, cookies, sessionStorage, localStorage](./原生JS/session&cookies&webStorage.md)
+
 [返回总目录](../README.md)
