@@ -72,15 +72,11 @@
 
 32. [require & import](./原生JS/require&import.md)
 
-33. [promise](./原生JS/promise.md)
-
 34. [http 缓存机制](./原生JS/http缓存机制.md)
 
 34. http(比如：常用请求头)
 
 35. [回流 & 重绘](./原生JS/回流&重绘.md)
-
-36. [微任务 & 宏任务](./原生JS/微任务&宏任务.md)
 
 37. [ajax、axios、fetch](./原生JS/ajax、axios、fetch.md)
 
@@ -93,12 +89,6 @@
 41. [wondow.onload & document.ready](./原生JS/wondow.onload和document.ready.md)
 
 45. 块级上下文 和 行级上下文
-
-46. [setTimeout 和 promise 异步](./原生JS/setTimeout和promise.md)
-
-47. promise 工作原理
-
-48. async await 中 await 的工作原理
 
 49. js 中数据打断点，监控数据的走向
 
@@ -121,6 +111,14 @@
 61. [事件委托(事件代理)](./原生JS/事件委托.md)
 
 61. [事件冒泡 和 事件捕获](./原生JS/事件冒泡和事件捕获.md)
+
+46. [setTimeout 和 promise 异步](./原生JS/setTimeout和promise.md)
+
+47. promise 工作原理
+
+33. [promise](./原生JS/promise.md)
+
+48. async await 中 await 的工作原理
 
 59. 浏览器的垃圾回收机制及其原理
 
