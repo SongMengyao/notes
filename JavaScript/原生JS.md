@@ -118,16 +118,18 @@
 
 36. [微任务 & 宏任务](./原生JS/微任务&宏任务.md)
 
-59. 浏览器的垃圾回收机制及其原理
-
-60. 浏览器的缓存机制
-
 61. [事件委托(事件代理)](./原生JS/事件委托.md)
 
 61. [事件冒泡 和 事件捕获](./原生JS/事件冒泡和事件捕获.md)
 
+59. 浏览器的垃圾回收机制及其原理
+
+60. 浏览器的缓存机制
+
 62. [session, cookies, sessionStorage, localStorage](./原生JS/session&cookies&webStorage.md)
 
 63. flex 布局
+
+64. 订阅 和 发布
 
 [返回总目录](../README.md)
