@@ -38,7 +38,7 @@
 
 11. vue 的工作原理，比如：v-model, v-if, v-for
 
-12. vue 和 react 的区别
+12. [vue 和 react 的区别](./vue/vue和react的区别.md)
 
 13. 单元测试
 
@@ -55,3 +55,5 @@
 20. getter/setter
 
 21. $nextTick 执行原理
+
+22. vue 中数据已经改变，但是视图却没有变化，原理是什么？解决方法是什么？
