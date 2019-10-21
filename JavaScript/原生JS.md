@@ -12,7 +12,7 @@
 
 5. [new 操作符](./原生JS/new操作符.md)
 
-6. 深拷贝 & 浅拷贝
+6. [深拷贝 & 浅拷贝](./原生JS/深拷贝&浅拷贝.md)
 
 7. [call、apply、bind](./原生JS/call&apply&bind.md)
 
