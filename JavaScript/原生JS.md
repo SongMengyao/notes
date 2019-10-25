@@ -130,4 +130,6 @@
 
 64. 订阅 和 发布
 
+65. [typeof 和 instanceof](./原生JS/typeof和instanceof.md)
+
 [返回总目录](../README.md)
