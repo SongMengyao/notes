@@ -76,6 +76,8 @@
 
 34. http(比如：常用请求头)
 
+34. [http 和 https 的区别](./原生JS/http和https的区别.md)
+
 35. [回流 & 重绘](./原生JS/回流&重绘.md)
 
 37. [ajax、axios、fetch](./原生JS/ajax、axios、fetch.md)
@@ -131,5 +133,7 @@
 64. 订阅 和 发布
 
 65. [typeof 和 instanceof](./原生JS/typeof和instanceof.md)
+
+66. [去掉字符串中所有的html标签](./原生JS/去掉字符串中所有的html标签.md)
 
 [返回总目录](../README.md)
